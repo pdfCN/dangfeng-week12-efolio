@@ -2,7 +2,7 @@
     <div class="container mt-5">
         <div class="row mb-3">
             <div class="col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-                <h1 class="text-center">🗄 W5. Library Registration Form</h1>
+                <h1 class="text-center">🗄 W5. Library Registration Form(Changed week12)</h1>
                 <h6 class="text-center">Let's build some more advanced features into out form.</h6>
                 <form @submit.prevent="submitForm">
                     <div class="row mb-3">
@@ -269,7 +269,7 @@ const validateReason = (blur) => {
     padding: 10px;
 }
 
-.text-reasonMessage{
+.text-reasonMessage {
     color: green;
 }
 </style>
