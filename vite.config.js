@@ -16,6 +16,6 @@ export default defineConfig({
     }
   },
   base: process.env.NODE_ENV === 'production'
-  ? '/<repository-name>/'
+  ? '/dangfeng-week12-efolio/'
   : '/'
 })
